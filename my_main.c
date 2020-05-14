@@ -409,7 +409,7 @@ void my_main() {
     }
     make_animation(name);
   }
-  else if (num_frames == 1){
+  else {
     for (i=0;i<lastop;i++) {
       printf("%d: ",i);
       switch (op[i].opcode)
